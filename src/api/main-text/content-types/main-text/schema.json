@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_texts",
+  "info": {
+    "singularName": "main-text",
+    "pluralName": "main-texts",
+    "displayName": "main-text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Beställ din mat och får det till din dörr!",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Hungriga är ett företag som vill skapa möjligheten för alla, små- som stora att kunna beställa hem sin mat"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_us_title": {
+      "type": "string"
+    },
+    "about_us_desc_1": {
+      "type": "text"
+    },
+    "about_us_desc_2": {
+      "type": "string"
+    },
+    "about_us_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service_title": {
+      "type": "string"
+    },
+    "service_desc": {
+      "type": "text"
+    },
+    "service_card_title_1": {
+      "type": "string"
+    },
+    "service_card_desc_1": {
+      "type": "string"
+    },
+    "service_card_title_2": {
+      "type": "string"
+    },
+    "service_card_desc_2": {
+      "type": "text"
+    },
+    "contact_us_title": {
+      "type": "string"
+    },
+    "contact_us_desc": {
+      "type": "text"
+    },
+    "contact_us_location": {
+      "type": "string"
+    },
+    "contact_us_mail": {
+      "type": "string"
+    },
+    "contact_us_phone": {
+      "type": "string"
+    },
+    "google_map_url": {
+      "type": "text"
+    }
+  }
+}
